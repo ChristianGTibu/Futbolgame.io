@@ -8,6 +8,8 @@
 }
 body {
     display: block;
+    background-image: 
+    url(https://www.realmadrid.com/cs/Satellite?blobcol=urldata&blobheader=image%2Fjpeg&blobkey=id&blobtable=MungoBlobs&blobwhere=1203336230949&ssbinary=true)
 }
 
 .score {
@@ -29,12 +31,13 @@ body {
 #tiro {
     position: center;
     width: 1500px;
-    height: 450px;
+    height: 470px;
     background-color: green;
     border: 3px solid #000;
 }
 
 #borde {
+    z-index: 2;
     position: center;
     width: 983.2px;
     height: 225.75px;
@@ -57,3 +60,36 @@ body {
     background-color: darkmagenta;
     border: 3px solid #000;
 }
+
+#medialuna {
+    width: 200px;
+    height: 90px;
+    border: 3px solid #ccc;
+    -moz-border-radius: 100px 100px 0 0;
+    -webkit-border-radius: 100px 100px 0 0;
+    border-radius: 0 0 100px 100px ;
+
+}
+
+#ribbon1 {
+    position: absolute;
+    margin: 20px;
+    padding: 2px;
+    width: 0px;
+    height: 150px;
+    border-left: 50px solid red;
+    border-right: 50px solid gray;
+    border-bottom: 35px solid transparent;
+}
+
+#ribbon2 {
+    position: absolute;
+    margin: 0 1160px;
+    padding: 1px;
+    width: 5px;
+    height: 150px;
+    border-left: 50px solid gray;
+    border-right: 50px solid red;
+    border-bottom: 35px solid transparent; 
+}
+
